@@ -1,3 +1,87 @@
-body {
+html {
+  background: url("../img/bones.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*body {
   background-image: url("../img/bones.jpg");
+}*/
+#main {
+  background: rgba(255, 255, 255, 0.5);
+}
+
+#name {
+  font-size: 500%;
+  font-family: cursive;
+  font-weight: bold;
+  text-align: center;
+}
+
+#bottom-border {
+  border-bottom: 4px solid black;
+}
+.profile-pic {
+  width: 300px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+
+.morph {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+
+.morph:hover {
+  border-radius: 50%;
+  -webkit-transform: rotate(360deg);
+     -moz-transform: rotate(360deg);
+       -o-transform: rotate(360deg);
+      -ms-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+
+
+.headlines {
+  font-size: 200%;
+  font-family: monospace;
+  font-style: italic;
+  font-weight: bolder;
+  color: red;
+}
+.container-1 {
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: bolder;
+  border-radius: 50px;
+}
+
+.container-2 {
+  background-color: #000000;
+  color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 20px;
+  font-weight: lighter;
+  border-radius: 50px;
+}
+
+.container-3 {
+  background-color: #ffffff;
+  width: 30%;
+  padding: 20px;
+  margin: auto;
+  font-weight: bolder;
+  border-radius: 50px;
 }
